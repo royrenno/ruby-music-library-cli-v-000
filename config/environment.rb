@@ -2,7 +2,8 @@ require 'bundler'
 Bundler.require
 
 module Concerns
+  modulle Findable
 
   end
- require_relative '../lib/concerns/findable'
+ 
 require_all 'lib'
