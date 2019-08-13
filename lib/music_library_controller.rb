@@ -8,6 +8,7 @@ end
   def call
     input = nil
     until input == "exit"
+<<<<<<< HEAD
       puts "Welcome to your music library!"
       puts "To list all of your songs, enter 'list songs'."
       puts "To list all of your artists in your library, enter 'list artists'."
@@ -53,6 +54,9 @@ def list_artists
       if genre = Genre.find_by_name(genre_name)
         genre.songs.sort{|a,b| a.name <=> b.name}.each.with_index{|song, index| puts "#{index +1}. #{song.artist.name} - #{song.name}"}
 end
+=======
+      puts "welcome to your music library!"
+>>>>>>> 07b3e24015682bb0704b12cb162c175f7b599e2e
 end
 end
 end
