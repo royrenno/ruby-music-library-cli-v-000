@@ -4,6 +4,5 @@ require 'bundler'
 	module Findable
     
 	end
-end
 
 require_all 'lib'
