@@ -61,6 +61,6 @@ def play_song
   if song_number > 1 && song_number < alphabetized_list.length
     song = alphabetized_list[song_number]
     puts "Playing #{song.name} by #{song.artist.name}"
-  end 
+  end
 end
 end
