@@ -6,4 +6,3 @@ require 'bundler'
   
 	end
 	end
-	require_all 'lib'
