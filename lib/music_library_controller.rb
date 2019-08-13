@@ -9,7 +9,7 @@ end
     input = ""
 
     until input == "exit"
-      puts "Welcome to your music library!."
+      puts "Welcome to your music library!"
       puts "To list all of your songs, enter 'list songs'."
       puts "To list all of your artists in your library, enter 'list artists'."
       puts "To list all of your genre in your library, enter ' list genres'."
