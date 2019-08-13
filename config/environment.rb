@@ -3,6 +3,5 @@ require 'bundler'
 	module Concerns
 	module Findable
 
-	end
 
 require_all 'lib'
